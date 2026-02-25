@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE/workspace
+.vscode/
+.idea/
+
+# Configuration secrets
+.env
+.env.local
+.env.*.backup
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Project outputs
+output/
+result/
+dataset/
+
+# Generated JSON artifacts
+detectーcode/1_dataset.json
+detectーcode/1_dataset.jsonl
+detectーcode/2_context.json
+detectーcode/2_context.jsonl
